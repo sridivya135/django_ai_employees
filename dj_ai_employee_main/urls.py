@@ -27,4 +27,6 @@ urlpatterns = [
 
     
     path('orders/', include('orders.urls')),
+
+    path('support/', include('support.urls')),
 ]
